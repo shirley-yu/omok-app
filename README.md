@@ -8,6 +8,8 @@ visit https://omok-app.herokuapp.com to start a game <br>
 enter your name and select whether you want to host the game or join a friend <br>
 if hosting, copy the room key and send it to a friend <br>
 copy the room key into the input prompt and press enter, creating a new game room between both players !
+<img src='./demo.gif' alt="demo gif" width="60%" height="60%"/>
+
 
 # work in progress //
 <div>
