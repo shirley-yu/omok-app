@@ -25,6 +25,7 @@ class App extends Component {
     //   const socket = socketIOClient(this.state.endpoint);
     //   this.setState({ socket });
     // }
+    // var endpoint = "localhost:4001";
     var endpoint = "omok-app.herokuapp.com";
     const socket = socketIOClient(endpoint);
     this.state.socket = socket;

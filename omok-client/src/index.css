@@ -75,10 +75,17 @@ textarea {
 }
 
 .choices {
+  background: #fdd4dc;
+  line-height: 14px;
+}
+
+.piece-button {
   background: #fff;
   border: 1px solid #fdd4dc;
   line-height: 14px;
+  text-align: center;
 }
+
 .square {
   background: #fff;
   border: 1px solid #fdd4dc;
@@ -93,10 +100,12 @@ textarea {
   text-align: center;
 }
 
+.piece-button:hover,
 .square:hover {
   background-color: #c0c0c0;
 }
 
+.piece-button:focus,
 .square:focus {
   background-color: #c0c0c0;
 }
@@ -124,12 +133,11 @@ textarea {
 }
 
 .board-container {
-  top: 50%;
-  left: 50%;
-  width: 740px;
-  position: fixed;
-  transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
-  border: 1px solid black;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 737px;
+  border: 1px solid #fff;
 }
 
 .board {
@@ -159,8 +167,9 @@ textarea {
   font-size: 12px;
   font-family: Arial;
   border: 1px solid rgb(245, 225, 225);
-  position: absolute;
+  position: relative;
   display: inline-block;
+  overflow: auto;
 }
 
 .chat-input {
