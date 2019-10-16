@@ -1,6 +1,6 @@
 # omok
 omok is based on the traditional Japanese strategic board game "Gomoku" in which 2 players play on a 15x15 grid, the first player to get 5 in a row wins, inspiration is taken from the massively multiplayer online game Maplestory where I first discovered it as a minigame!
-features real time private matchmaking and private chat functionality!
+features real time private matchmaking and chat functionality!
 <br>
 
 # how to play
