@@ -1,0 +1,178 @@
+/* html,
+body,
+#root {
+  background-color: #fdd4dc;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+} */
+html,
+body,
+#root {
+  /* background: url("./components/images/i-worked-hard-on-this.png"); */
+  background-color: #fdd4dc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  font-family: Arial;
+}
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 150px;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-form input {
+  background-color: #fff;
+  color: #fdd4dc;
+  text-align: center;
+  max-width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: solid 2px #fdd4dc;
+  transition: all 0.23s ease-in;
+}
+.login-form input:focus {
+  border-bottom: solid 2px #fff;
+  outline: none;
+}
+.login-form .error {
+  text-align: center;
+  margin: 5px 0;
+  padding: 5px 10px;
+  color: #c92c43;
+}
+.container {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.choices {
+  background: #fff;
+  border: 1px solid #fdd4dc;
+  line-height: 14px;
+}
+.square {
+  background: #fff;
+  border: 1px solid #fdd4dc;
+  float: left;
+  line-height: 14px;
+  height: 30px;
+  width: 30px;
+
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: #c0c0c0;
+}
+
+.square:focus {
+  background-color: #c0c0c0;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.mystyle {
+  background-color: #c0c0c0;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.lobby {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
+}
+
+.board-container {
+  top: 50%;
+  left: 50%;
+  width: 740px;
+  position: fixed;
+  transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
+  border: 1px solid black;
+}
+
+.board {
+  /* position: fixed; */
+  float: left;
+  /* bring your own prefixes */
+  /* border: 1px solid black; */
+
+  /* transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px)); */
+}
+
+.lastMove {
+  background-color: #fdd4dc;
+}
+
+.chat-container {
+  display: inline-block;
+
+  /* border: 1px solid black; */
+}
+
+.chat-box {
+  background-color: #fff;
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  font-size: 12px;
+  font-family: Arial;
+  border: 1px solid rgb(245, 225, 225);
+  position: absolute;
+  display: inline-block;
+}
+
+.chat-input {
+  position: absolute;
+  left: 1;
+  bottom: 0;
+  width: 300px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+
+.chat-name {
+  font-weight: bold;
+  font-size: 20px;
+}
